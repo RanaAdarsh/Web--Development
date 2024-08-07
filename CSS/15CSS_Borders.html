@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders</title>
+    <style>
+        .none {
+            border-style: none;
+        }
+
+        .hidden {
+            border-style: hidden;
+        }
+
+        .dotted {
+            border-style: dotted;
+            border-color: purple;
+            border-width: thick;
+            border-radius: 20px;
+        }
+
+        .dashed {
+            border-style: dashed;
+            border-color: green;
+            border-width: medium;
+            border-radius: 10px 5px 15px 35px;
+        }
+
+        .solid {
+            border-style: solid;
+            border-color: yellow;
+            border-width: thin;
+            border-radius: 10px 5px 15px 35px;
+        }
+
+        .double {
+            border-style: double;
+            border-color: red;
+            border-width: 4px;
+            border-top-left-radius: 20px;
+        }
+
+        .groove {
+            border-style: groove;
+            border-color: lemonchiffon;
+            border-width: 8px;
+            border-top-right-radius: 20px;
+
+        }
+
+        .ridge {
+            border-style: ridge;
+            border-color: green;
+            border-width: 8px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .inset {
+            border-style: inset;
+            border-color: brown;
+            border-width: 7px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .outset {
+            border-right: outset;
+            border-color: chocolate;
+            border-width: 4px;
+        }
+
+        .collapse {
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+
+        .separate {
+            border: 3px solid green;
+            border-collapse: separate;
+            border-spacing: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="none">I am None.</p>
+    <p class="hidden">I am hidden.</p>
+    <p class="dotted">I am dotted.</p>
+    <p class="dashed">I am dashed.</p>
+    <p class="solid">I am solid.</p>
+    <p class="double">I am double.</p>
+    <p class="groove">I am groove.</p>
+    <p class="ridge">I am ridge.</p>
+    <p class="inset">I am inset.</p>
+    <p class="outset">I am outset.</p>
+
+    <div>
+        <table class="collapse" border="">
+            <thead>
+                <tr>
+                    <th>FirstName</th>
+                    <th>lastName</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adarsh</td>
+                    <td>Rana</td>
+                </tr>
+                <tr>
+                    <td>Ellie</td>
+                    <td>Brown</td>
+                </tr>
+                <tr>
+                    <td>Gordon</td>
+                    <td>Ramsey</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="separate" border="">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>LogBook</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Catter</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>Ductinch</td>
+                    <td>70</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

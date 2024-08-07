@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    height: 50px
+}
+
+.navdiv {
+    padding: 10px 15px 10px 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    /* border:1px solid black; */
+    height: 30px;
+}
+
+.logo {
+    width: 90px;
+    margin-left: 20px;
+    margin-right: 130px;
+}
+
+.logo>img {
+    height: 26px;
+    padding: 4px;
+}
+
+.right {
+
+    font-size: 8px;
+    color: rgb(47, 47, 47);
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 4px;
+    width: 50px;
+    padding: 2px 0px 2px 0px;
+    /* justify-content: center;
+    align-items: center; */
+    align-content: center;
+
+}
+
+.security {
+    margin-left: 4px;
+    width: 98px;
+}
+
+.lang {
+    margin-left: 2px;
+    width: 20px;
+}
+
+.lang>img {
+    height: 12px;
+}
+
+svg {
+    margin-left: 2px;
+    ;
+}
+
+.head {
+
+    font-size: 23px;
+    width: 67vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+h5 {
+    display: inline;
+
+}
+
+.reviewlogo>img {
+    height: 6vh;
+    margin-left: 8px;
+}
+
+.secondmain {
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inside_second {
+    width: 73vw;
+    text-align: center;
+}
+
+.global_down {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.inside_global {
+    border: none;
+    background-color: #00b6d1;
+    border-radius: 3px;
+    width: 24vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3.5px;
+    color: white;
+}
+
+.gridlogo {
+    margin-top: 13vh;
+}
+
+#gridtext {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.inside_gridlogo {
+    margin-left: 11vw;
+    display: flex;
+    align-items: center;
+    width: 42vw;
+}
+
+#gridnote {
+    margin-top: 4px;
+    margin-left: 2px;
+    font-size: 7px;
+}
+
+.griddiv {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.inside_grid {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 40vh 40vh 40vh 40vh;
+}
+
+.English {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    /* grid-area: English; */
+}
+
+.German {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.Italian {
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+
+.Spanish {
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+
+.French {
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+}
+
+
+.Gridbox {
+    background-color: #f9f9f9;
+    margin: 8px;
+}
+
+#lang {
+    height: 12vh;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.downloadbtn {
+    background-color: rgb(92, 184, 92);
+    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+
+}
+
+.downloadbtn>a {
+    font-size: 7px;
+
+}

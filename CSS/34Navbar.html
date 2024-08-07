@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: white;
+        }
+        nav{
+            background-color: white;
+            height:50px
+        }
+        div{
+            padding:10px 15px 10px 15px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            /* border:1px solid black; */
+            height:30px;
+        }
+        .logo{
+           width:90px;
+           margin-left: 20px;
+           margin-right: 130px;
+        }
+        .logo>img{
+            height:26px;
+            padding:4px;
+        }
+
+        .right{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 8px;
+            color: rgb(47, 47, 47);
+            height:20px;
+            margin-top: 8px;
+            margin-left:4px;
+            width:50px;
+            padding:2px 0px 2px 0px;
+            justify-content: center;
+            align-items: center;
+            /* align-content: center; */
+      
+        }
+        
+        .security{
+            margin-left:4px;
+            width:98px;
+        }
+        
+        .lang{
+            margin-left:2px;
+            width:20px;
+        }
+
+        .lang>img{
+            height:12px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul>
+                <li class="logo">
+                    <img src="logo.png" alt="">
+                </li>
+                    <li class="right" >Products</li>
+                    <li class="right">Pricing</li>
+                    <li class="right">Resources</li>
+                    <li class="right">About Us</li>
+                    <li class=" right security">Security and compliance</li>
+                    <li class="right lang">
+                        <img src="Lang.png" alt="">
+                    </li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>

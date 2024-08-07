@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: 100px 120px;
+            grid-template-rows: 100px 100px 100px; */
+
+
+            grid-template-areas: "nav nav nav"
+                                 "article article side"
+                                 "footer footer footer";
+
+        }
+
+
+
+        .box{
+            border: 2px solid black;
+            height: 40px;
+            /* width: 40px; */
+        }
+
+        .box1{
+            /* grid-row:1/3;
+            grid-column: 1/2;; */
+            grid-area: nav;
+            background-color: aqua;
+        }
+        .box2{
+            grid-area: article;
+            background-color: rgb(179, 225, 227);
+        }
+        .box3{
+            /* grid-row: 1/3;
+            grid-column: 1/2;
+         */
+         grid-area: side;
+         background-color: rgb(203, 230, 176);
+        }
+
+        .box4{
+            grid-area: footer;
+            background-color: rgb(162, 186, 232);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <!-- <div class="box box5">5</div>
+        <div class="box box6">6</div> -->
+    </div>
+
+    
+</body>
+</html>

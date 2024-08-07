@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        .para{
+            border:2px solid black;
+            background-color:rgb(174, 237, 237);
+        }
+        .container{
+            display: flex;
+            background-color: beige;
+        }
+        .box{
+            margin:3px;
+            border: 1px solid black;
+            width:100px;
+            height: 100px;
+        }
+        @media only screen and (max-width:433px){
+            .para{
+                background-color: rgb(236, 206, 151);
+                border: 2px solid purple;
+            }
+            .container{
+                background-color: rgb(238, 164, 164);
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+    <div class="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique perferendis earum ab officia nam quasi commodi aliquam aut. Vero possimus corrupti incidunt culpa non facere assumenda quod amet quas, molestias nulla eum, sint tenetur adipisci nemo iusto cumque. Quia fuga incidunt, rem illum nesciunt consequuntur aliquam saepe recusandae voluptatibus non itaque et a asperiores nulla corrupti quibusdam? In, officiis? Excepturi qui soluta nam impedit at dolore sunt mollitia, accusamus aspernatur, vitae nemo illum consequuntur esse? Quidem, amet eveniet!
+    </div>
+</body>
+</html>

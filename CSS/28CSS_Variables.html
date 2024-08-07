@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --color:blue;
+            --secolor:rgb(154, 154, 237);
+            --defmargin:20px
+        }
+        
+        .Box{
+            border: 2px solid black;
+            margin: var(--defmargin);
+        }
+        .Box1{
+            background-color: var(--color);
+        }
+
+        .Box2{
+            background-color: var(--secolor);
+        }
+
+        .Box3{
+            --color:rgb(171, 242, 171);
+            background-color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <div class="Box Box1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam enim odit, asperiores commodi repudiandae fugiat explicabo laudantium obcaecati tempore possimus vitae repellendus consequatur, quos aliquid debitis voluptas eum odio. Eligendi.
+    </div>
+
+    <div class="Box Box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, illo ratione blanditiis voluptatum dolores error odio perspiciatis, necessitatibus incidunt quaerat eius numquam cum eveniet quos nostrum eaque obcaecati? Quae, impedit illum. Voluptatem, facilis unde voluptate id obcaecati eius sunt odio aliquam ex eos accusantium, earum doloremque magnam tempore?
+    </div>
+    
+    <div class="Box Box3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem totam quam fugiat aliquam quis? Praesentium quo dolor quos hic. Eum ipsum maiores, quidem aliquid porro asperiores magni quis, ullam excepturi mollitia ducimus vitae id exercitationem sapiente autem molestiae reprehenderit recusandae laboriosam consequatur aut.
+    </div>
+</body>
+</html>

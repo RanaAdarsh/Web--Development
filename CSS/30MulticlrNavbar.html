@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiColor Navbar</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        nav{
+            border: 1px solid grey;
+            background-color: white;
+        }
+        .navbar{
+            border:none;
+            display: flex;
+            width:267px;
+            margin:0vw 30vw;
+        
+        }
+        li{
+            border:none;
+            margin:10px;
+            padding:10px;
+            list-style: None;
+            text-align: center;
+        }
+        @media only screen and (max-width:400px){
+            nav{
+                background-color:aquamarine;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li id="home">Home</li>
+            <li id="search">Search</li>
+            <li id="contact">Contact</li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
