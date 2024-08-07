@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+</head>
+
+<body>
+    <h1>Embedding Multimedia Tutorial</h1>
+    <div>
+        &nbsp;
+        <h2>--Embedding Videos--</h2>
+        <pre>Videos are embedded using &lt;video&gt; tag
+        <caption>Syntax:-</caption>
+                &lt;video src="Video_path" controls&gt;&lt;/video&gt;
+    </pre>
+        <p>Here are Embedded videos</p>
+        <video src="video1.mp4" controls height="200" poster="poster.jpg"></video>
+        <video src="video2.mp4" controls height="200"></video>
+        <video src="video3.mp4" controls height="200"></video>
+    </div>
+
+    <div>
+        <h2>--Embedding Audios--</h2>
+        <pre>Audios are embedded using &lt;audio&gt; tag
+        <caption>Syntax--</caption>
+            &lt;audio src="File_path" controls&gt;&lt;/audio&gt;
+        </pre>
+
+        <p>Here are Embedded Audios</p>
+        <audio src="Audio1.mp3" controls preload="none"></audio>
+    </div>
+
+    <div>
+        <h2>--iFrames--</h2>
+        <pre>iFrames are used to embbed external webpage or embbed Youtube Videos
+        <caption>Embedding External Webpages</caption>
+        Syntax--
+                &lt;iframe src="URL" widht=" " height="" &gt;&lt;/iframe&gt;
+
+        <caption>Embedding Youtube Videos</caption>
+        Syntax--
+                just the iframe link from yotube video
+        </pre>
+
+
+        <p>Embedding External Webpage</p>
+        <iframe src="https://en.wikipedia.org/wiki/Ram_Mandir" frameborder="1" width="455" height="400"></iframe>
+
+        <p>Embedding Youtube Video</p>
+        <iframe width="300" src="https://www.youtube.com/embed/PG6RBV4u8Bk?si=JfSgMx6sthekgfdg"
+            title="YouTube video player" frameborder="4"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>

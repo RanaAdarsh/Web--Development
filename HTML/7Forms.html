@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Creating forms</h1>
+
+    <pre>
+        <h2>Forms are created using &lt;form&gt; tag <h2></h2><br>-Syntax : &lt;form action="/submit" method="post"&gt;
+
+                <b>--Label syntax--</b>
+                &lt;label for="Id_name"&gt;Label&lt;/label&gt;
+
+                <b>--Form control syntax--</b>
+                &lt;input type=" " id=" " name=" " required&gt;
+
+          &lt;/form&gt;
+    </pre>
+
+    <h2>Creating a Form</h2>
+    <form action="/submit" method="post">
+        <label for="text">Text input</label>
+        <input type="text" id="text" name="text" placeholder="Enter Text">
+        <br><br>
+
+        <label for="Password">Password input</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <br><br>
+
+        <caption>Radio buttons</caption>
+        <label>Gender:</label>
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <br><br>
+
+
+        <caption>Checkbox</caption>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to news Letter</label>
+        <br><br>
+
+
+        <caption>Submit button</caption>
+
+        <input type="submit" value="submit">
+    </form>
+    <div>
+    <caption>---Creating a textarea---</caption><br>
+    <label for="comment">Enter your comment :</label><br>
+    <textarea name="comments" id="comment" cols="50" rows="4">
+        Enter your comment here......
+    </textarea>
+    </div>
+
+    <caption>---Creating a select menu--</caption><br>
+    <label for="Fruit">Select from here :</label>
+    <select name="fruits" id="Fruit">
+        <option value="apple">Apple</option>
+        <option value="apple">Banana</option>
+        <option value="apple">Cherry</option>
+        <option value="apple">Mango</option>
+    </select>
+    <div></div>
+
+</body>
+
+</html>
