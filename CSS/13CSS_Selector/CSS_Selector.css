@@ -1,0 +1,21 @@
+/* Universal Selector */
+*{
+    text-align: center;
+    color: rgb(60, 76, 202);
+    background-color: rgb(212, 195, 172);
+}
+
+/* Element Selector */
+div{
+    border: solid rgb(172, 252, 226);
+    background-color: rgb(228, 129, 118);
+}
+
+p{
+    border:solid black;
+    background-color:dimgray;
+    color: rgb(225, 219, 127);
+    text-decoration:underline;
+    padding:15px;
+}
+

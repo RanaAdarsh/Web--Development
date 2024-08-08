@@ -1,0 +1,43 @@
+*{
+    background-color: antiquewhite;
+}
+
+/* ID Selector */
+#h1_id{
+    text-align: center;
+    color: rgb(69, 69, 182);
+    text-decoration: underline;
+}
+
+#div1{
+    border: solid rgb(184, 140, 140) 2px;
+}
+
+#div2{
+    border: solid rgb(105, 136, 60) 2px;
+
+}
+
+
+/* Class Selector */
+.sub_h3{
+    
+    color: rgb(133, 84, 84);
+    width:31%;
+    text-decoration: underline;
+    padding: 0px 6px;
+}
+
+.para{
+    border: solid white 3px;
+    background-color: cornsilk;
+    text-align: center;
+
+}
+
+
+/* Group Selector */
+
+h3,div{
+    background-color: rgb(194, 234, 221);
+}
