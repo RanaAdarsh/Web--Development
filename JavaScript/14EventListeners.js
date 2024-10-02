@@ -8,3 +8,9 @@ function sayhello(){
 for(btn of btns){
     btn.addEventListener("click",sayhello);
 }
+
+let div = document.querySelector(".box");
+div.addEventListener("mouseenter",()=>{
+    console.log("You entered into div");
+    
+})
